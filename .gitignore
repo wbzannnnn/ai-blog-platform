@@ -1,0 +1,26 @@
+﻿# Dependencies
+node_modules/
+target/
+dist/
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Secrets and local overrides
+.env
+.env.*
+!.env.example
+application-local.yml
+application-local.yaml
+application-local.properties
+
+# Runtime data
+uploads/
+*.log
+
+# Generated Maven wrapper jar may be restored by mvnw
+backend/.mvn/wrapper/maven-wrapper.jar
